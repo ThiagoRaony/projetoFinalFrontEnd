@@ -1,0 +1,532 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+/* Geral */
+
+:root {
+  font-size: 62.5%; /* 1rem é 10px agora*/
+  
+  /* Colors */
+  --border-color: #562f72;
+  --font-main-color: #a5da4e;
+
+  /* Fonts */
+  --main-font: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Header */
+
+.main-header {
+  background-image: url(../images/header-principal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+section.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.logo {
+  font-family: var(--main-font);
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo a:hover {
+  cursor: pointer;
+  color: var(--font-main-color);
+  transition: .6s;
+}
+
+.logo strong {
+  color: var(--font-main-color);
+}
+
+.logo strong:hover {
+  color: var(--font-main-color);
+  transition: .6s;
+}
+
+header .links-paginas {
+  display: flex;
+}
+
+header .links-paginas a {
+  font-family: var(--main-font);
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: black;
+  margin-right: 3rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+header .links-paginas a:hover {
+  color: var(--font-main-color);
+}
+
+/*header .links-paginas a {
+  margin-right: 3rem;
+  font-size: 2.3rem;
+  text-decoration: none;
+}*/
+
+header .links-paginas a:nth-child(1) {
+  color: var(--font-main-color);
+}
+
+.button-pedido button {
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--font-main-color);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: var(--main-font);
+}
+
+.button-pedido button:hover {
+  background-color: var(--border-color);
+  filter: brightness(1.2);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+/* Carrossel 1 */
+
+section.carrossel1 {
+  overflow: hidden;
+  width: 50rem;
+  height: 65rem;
+  margin: 0 auto;
+}
+
+.container-carrossel1 {
+  display: flex;
+  transform: translateX(0);
+  transition: .4s ease-in-out;
+}
+
+section.carrossel1 h2 {
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 6rem;
+  color: var(--font-main-color);
+  margin-bottom: 2rem;
+}
+
+.container-carrossel1 div h4 {
+  font-size: 6rem;
+  font-family: var(--main-font);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  color: white;
+}
+
+.container-carrossel1 img{
+  width: 50rem;
+  height: 40rem;
+  border-radius: 7rem;
+  background-position: center;
+}
+
+/* Main */
+
+main {
+  background: #FFFFFF;
+}
+
+.introducao-produtos {
+  margin: 10rem 12rem;
+  text-align: justify;
+}
+
+.introducao-produtos h3 , .introducao-produtos h4 {
+  text-align: left;
+}
+
+.introducao-produtos h3 {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 4.2rem;
+  border-bottom: 10px solid var(--border-color);
+  width: 35%;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.introducao-produtos h4 {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: var(--font-main-color);
+}
+
+.introducao-produtos p {
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.carrossel-produtos2 {
+  margin: 0 10rem;
+}
+
+.carrossel-produtos2 h3 {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 4.2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.carrossel-produtos2 h4 {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: var(--font-main-color);
+}
+
+.carrossel-produtos2 p {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.container-carrossel2 h3 {
+  border-bottom: 10px solid var(--border-color);
+  width: 45%;
+}
+
+.container-carrossel2 div {
+  margin-bottom: 10rem;
+}
+
+.container-carrossel2 .text-carrossel2 {
+  float: left;
+  width: 99%;
+}
+
+.container-carrossel2 .image-carrossel2 {
+  float: right;
+  width: 1%;
+}
+
+.container-carrossel2 .image-carrossel2 img {
+  width: 50rem;
+}
+
+.slide {
+  margin-right: 50rem;
+}
+
+/* Configurações para fazer o segundo carrossel no JS */
+
+section.carrossel-produtos2 {
+  overflow: hidden;
+  height: 40rem;
+  width: 100rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#carrossel2 {
+  display: flex;
+  transform: translateX(0);
+  transition: .4s ease-in-out;
+}
+
+/* -------------------------------------------------- */
+
+
+
+
+.container-sobre {
+  margin: 0 12rem;
+}
+
+/* Carrossel */
+
+
+
+/* ---------------*/
+
+section.sobre {
+  background: #0A0A0A;
+}
+
+#header-sobre {
+  background-image: url(../images/header-sobre.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header-sobre img {
+  width: 100%;
+}
+
+#footer-sobre {
+  background-image: url(../images/footer-sobre.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#footer-sobre img {
+  width: 100%;
+}
+
+.container-sobre {
+  display: flex;
+  margin-bottom: 15rem;
+}
+
+.container-sobre h3 {
+  font-family: var(--main-font);
+  color: var(--font-main-color);
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.container-sobre h2 {
+  font-family: var(--main-font);
+  font-size: 4.2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 10px solid var(--border-color);
+  width: 55%;
+  color: white;
+}
+
+.container-sobre p {
+  font-family: var(--main-font);
+  font-size: 1.8;
+  font-weight: 400;
+  color: white;
+}
+
+.text-sobre {
+  float: left;
+  width: 50%;
+  text-align: justify;
+}
+
+.image-sobre {
+  float: right;
+  width: 50%;
+}
+
+.image-sobre img {
+  width: 100%;
+}
+
+
+
+
+
+.container-onde-estamos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-onde-estamos h2 {
+  font-family: var(--main-font);
+  font-size: 4.2rem;
+  font-weight: 900;
+  border-bottom: 10px solid var(--border-color);
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.container-onde-estamos h3 {
+  font-family: var(--main-font);
+  color: var(--font-main-color);
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.unidades {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.locais {
+  margin-top: 3rem;
+  font-family: var(--main-font);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #444;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  font-size: 3rem;
+  color: #CDCDCD;
+  padding-right: 1rem;
+  border-left: 2px solid var(--border-color);
+}
+
+.delivery {
+  float: right;
+}
+
+.delivery h2 {
+  width: 48%;
+  margin-bottom: 2rem;
+}
+
+.delivery img {
+  width: 300px;
+  height: 300px;
+}
+
+/* Footer */
+
+.container-footer {
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font);
+}
+
+.main-footer {
+  margin-top: 5rem;
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font);
+}
+
+.main-footer h2 {
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.main-footer a {
+  text-decoration: none;
+}
+
+.main-footer p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.main-footer h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.redes-sociais {
+  margin: 2rem 0;
+}
+
+.redes-sociais i {
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 0.9rem;
+  vertical-align: middle;
+}
+
+.copyright {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Responsivo */
+
+@media (max-width: 1024px) {
+  
+  section.carrossel-produtos2 {
+    overflow: hidden;
+    height: 80rem;
+    width: 50rem;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .text-sobre h2 {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 940px) {
+
+  .logo {
+    font-size: 2.4rem;
+  }
+
+  .main-header h4 {
+    font-size: 2rem;
+  }
+
+  .button-pedido button {
+    font-size: 1.6rem;
+    padding: .6rem;
+  }
+
+  .text-sobre h2 {
+    width: 90%;
+    font-size: 3.6rem;
+  }
+
+  .image-sobre img {
+    display: inline-block;
+  }
+
+  .text-sobre {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,534 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+/* Geral */
+
+:root {
+  font-size: 62.5%; /* 1rem é 10px agora*/
+  
+  /* Colors */
+  --border-color: #562f72;
+  --font-main-color: #a5da4e;
+
+  /* Fonts */
+  --main-font: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--main-font);
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Header */
+
+.main-header {
+  background-image: url(../images/header-principal.png);
+  background-size: cover;
+  height: 30rem;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+section.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.logo {
+  font-family: var(--main-font);
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo a:hover {
+  cursor: pointer;
+  color: var(--font-main-color);
+  transition: .6s;
+}
+
+.logo strong {
+  color: var(--font-main-color);
+}
+
+.logo strong:hover {
+  color: var(--font-main-color);
+  transition: .6s;
+}
+
+header .links-paginas {
+  display: flex;
+}
+
+header .links-paginas a {
+  font-family: var(--main-font);
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: black;
+  margin-right: 3rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+header .links-paginas a:hover {
+  color: var(--font-main-color);
+}
+
+/*header .links-paginas a {
+  margin-right: 3rem;
+  font-size: 2.3rem;
+  text-decoration: none;
+}*/
+
+header .links-paginas a:nth-child(2) {
+  color: var(--font-main-color);
+}
+
+.button-pedido button {
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--font-main-color);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: var(--main-font);
+}
+
+.button-pedido button:hover {
+  background-color: var(--border-color);
+  filter: brightness(1.2);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.title-pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+.title-pagina h2 {
+  font-size: 5.2rem;
+  margin-top: 2rem;
+}
+
+/* Main */
+
+main {
+  margin: 5rem;
+}
+
+section.cards-cardapio {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--main-font);
+  margin: 0 auto;
+  color: white;
+}
+
+section.cards-cardapio div {
+  margin: 2rem auto;
+  background: var(--border-color);
+}
+
+section.cards-cardapio img {
+  width: 100%;
+}
+
+section.cards-cardapio .img-irregular1 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section.cards-cardapio .img-irregular2 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+section.cards-cardapio .img-irregular3 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+section.cards-cardapio .img-irregular4 {
+  width: 25rem;
+  margin: 0rem auto;
+}
+
+section.cards-cardapio .img-irregular5 {
+  width: 18rem;
+  margin: 3.6rem auto;
+}
+
+section.cards-cardapio .img-irregular6 {
+  width: 55%;
+  margin: 1.5rem auto;
+}
+
+section.cards-cardapio .img-irregular7 {
+  width: 90%;
+  margin-top: 1rem;
+}
+
+section.cards-cardapio .img-irregular8 {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.card-body p {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.card-body span {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--font-main-color);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.8rem;
+}
+
+.button-adicionar {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: var(--font-main-color);
+  filter: brightness(1);
+  transition: 0.4s;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 1.5rem;
+}
+
+.button-adicionar:hover {
+  filter: brightness(1.2);
+  background-color: var(--font-main-color);
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: var(--font-main-color);
+  filter: brightness(0.8);
+  transition: 0.4s;
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+  background-color: var(--font-main-color);
+}
+
+.pedido {
+  display: flex;
+  flex-direction: column;
+}
+
+.pedido h4 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: var(--font-main-color);
+}
+
+.pedido h3 {
+  font-size: 4.2rem;
+  font-weight: 900;
+  border-bottom: 10px solid var(--border-color);
+  width: 15%;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pedido textarea {
+  width: 50%;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.pedido button {
+  padding: 2rem;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 700;
+  background: var(--border-color);
+  color: white;
+  filter: brightness(1);
+  transition: 0.4s;
+  border: none;
+  border-radius: 5px;
+}
+
+.pedido button:hover {
+  filter: brightness(1.2);
+  background-color: var(--font-main-color);
+  cursor: pointer;
+}
+
+
+/* Footer */
+
+.container-footer {
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font);
+}
+
+.main-footer {
+  margin-top: 5rem;
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font);
+}
+
+.main-footer h2 {
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.main-footer a {
+  text-decoration: none;
+}
+
+.main-footer p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.main-footer h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.redes-sociais {
+  margin: 2rem 0;
+}
+
+.redes-sociais i {
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 0.9rem;
+  vertical-align: middle;
+}
+
+.copyright {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Modal */
+
+
+
+.modal-dialog {
+  background-color: var(--font-main-color);
+  border: 5px solid var(--font-main-color);
+  border-radius: 10px;
+  position: fixed;
+  top: 20%;
+  left: 32%;
+  transform: translate(-50%,-50%);
+}
+
+.modal-content {
+  background-color: var(--border-color);
+  font-weight: 700;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-header i {
+  font-size: 10rem;
+  color: rgb(34, 218, 34);
+}
+
+.modal-title {
+  font-size: 3rem;
+}
+
+.modal-header button {
+  position: absolute;
+  font-size: 2rem;
+  top: -20px;
+}
+
+.modal-body h5 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.modal-footer {
+  border: none;
+}
+
+/* Responsivo */
+
+@media (max-width: 1320px) {
+  
+  .cards-cardapio {
+    width: 70%;
+  }
+
+  .pedido {
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  .modal-dialog {
+    top: 20%;
+    left: 30%;
+  }
+
+  .pedido h3 {
+    width: 18%;
+  }
+
+}
+
+@media (max-width: 980px) {
+
+  main {
+    margin: 5rem 0;
+  }
+
+  .logo {
+    font-size: 2.8rem;
+  }
+
+  .button-pedido button{
+    font-size: 1.6rem;
+    padding: .8rem;
+  }
+
+  .modal-dialog {
+    top: 20%;
+    left: 25%;
+  }
+
+}
+
+@media (max-width: 840px) {
+  .logo {
+    font-size: 2.4rem;
+  }
+
+  .main-header h4 {
+    font-size: 2rem;
+  }
+
+  .button-pedido button {
+    font-size: 1.6rem;
+    padding: .6rem;
+  }
+}
+
+@media (max-width: 780px) {
+
+  .logo {
+    font-size: 3.6rem;
+  }
+
+  .button-pedido {
+    display: none;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .button-pedido {
+    display: none;
+  }
+
+  .pedido h3 {
+    width: 28%;
+  }
+}
+
+@media (max-width: 450px) {
+  .pedido h3 {
+    display: none;
+  }
+
+  .pedido h4 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 385px) {
+  .logo {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .logo {
+    font-size: 2.6rem;
+  }
+
+  .pedido h4 {
+    font-size: 2.5rem;
+  }
+
+  .main-footer h2 {
+    font-size: 2.8rem;
+  }
+}
