@@ -289,7 +289,8 @@ section.carrossel-produtos2 {
 /* ---------------*/
 
 section.sobre {
-  background: #0A0A0A;
+  background: #0A0A0a;
+  width: 100%;
 }
 
 #header-sobre {
@@ -314,7 +315,7 @@ section.sobre {
 
 .container-sobre {
   display: flex;
-  margin-bottom: 15rem;
+  margin-bottom: 2rem;
 }
 
 .container-sobre h3 {
@@ -350,20 +351,18 @@ section.sobre {
 
 .image-sobre {
   float: right;
-  width: 50%;
+  width: 40%;
 }
 
 .image-sobre img {
   width: 100%;
+  padding: 5rem;
 }
-
-
-
-
 
 .container-onde-estamos {
   display: flex;
   justify-content: space-around;
+  margin-top: 10rem;
 }
 
 .container-onde-estamos h2 {
@@ -431,8 +430,7 @@ i {
   margin-top: 5rem;
   background-image: url(../images/footer.png);
   background-size: cover;
-  background-position: 50%;
-  height: 30rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -465,9 +463,10 @@ i {
 
 .redes-sociais i {
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0.9rem;
   vertical-align: middle;
+  color: white;
 }
 
 .copyright {
