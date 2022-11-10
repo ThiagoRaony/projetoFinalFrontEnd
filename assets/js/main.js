@@ -13,11 +13,12 @@ function carrosselAutomatico1() {
   images1.style.transform = `translateX(${-imagemAtual1 * 500}px)`
 }
 
-setInterval(carrosselAutomatico1, 2500)
+setInterval(carrosselAutomatico1, 3000)
 
 // ---------------------------
 
 // Carrossel 2
+
 let images = document.getElementById('carrossel2')
 let image = document.querySelectorAll('#carrossel2 .slide')
 
@@ -25,7 +26,7 @@ let imagemAtual = 0
 
 function carrosselAutomatico() {
   imagemAtual++
-  if (imagemAtual > image.length - 1) {
+  if (imagemAtual > image.length + 2) {
     imagemAtual = 0
   }
   images.style.transform = `translateX(${-imagemAtual * 500}px)`

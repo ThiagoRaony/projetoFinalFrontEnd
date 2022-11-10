@@ -119,7 +119,7 @@ header .links-paginas a:nth-child(1) {
 }
 
 .button-pedido button:hover {
-  background-color: var(--border-color);
+  background-color: greenyellow;
   filter: brightness(1.2);
   transition: 0.6s;
   cursor: pointer;
@@ -255,13 +255,14 @@ main {
 
 .slide {
   margin-right: 50rem;
+  
 }
 
 /* Configurações para fazer o segundo carrossel no JS */
 
 section.carrossel-produtos2 {
   overflow: hidden;
-  height: 40rem;
+  height: 46rem;
   width: 100rem;
   margin: 0 auto;
   text-align: justify;
@@ -269,24 +270,20 @@ section.carrossel-produtos2 {
 
 #carrossel2 {
   display: flex;
-  transform: translateX(0);
+  transform: translateX();
   transition: .4s ease-in-out;
 }
+
 
 /* -------------------------------------------------- */
 
 
-
+/* Sobre */
 
 .container-sobre {
   margin: 0 12rem;
 }
 
-/* Carrossel */
-
-
-
-/* ---------------*/
 
 section.sobre {
   background: #0A0A0a;
@@ -428,9 +425,11 @@ i {
 
 .main-footer {
   margin-top: 5rem;
-  background-image: url(../images/footer.png);
+  /*background-image: url(../images/footer.png);*/
+  background-color: #612661;
   background-size: cover;
   height: 25rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

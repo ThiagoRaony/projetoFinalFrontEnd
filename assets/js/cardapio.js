@@ -72,14 +72,14 @@ let ex12 = document.getElementById('ex12')
 let valor01 = 30
 let valor02 = 34
 let valor03 = 36
-let valor04 = 40
-let valor05 = 6
-let valor06 = 6
-let valor07 = 8
-let valor08 = 8
-let valor09 = 4
-let valor10 = 6
-let valor11 = 16
+let valor04 = 32
+let valor05 = 24
+let valor06 = 23
+let valor07 = 21
+let valor08 = 62
+let valor09 = 44
+let valor10 = 55
+let valor11 = 43
 let valor12 = 16
 
 // Valor Total
