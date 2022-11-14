@@ -91,7 +91,7 @@ let mostraValorPedido = document.getElementById('mostraValorPedido')
 function adicionar01() {
   nItens01++
   mostraNItens01.innerHTML = `Quantidade: ${nItens01}`
-  pedidos.innerHTML += `\n${nItens01} Vegetariano Especial`
+  pedidos.innerHTML += `\n${nItens01} Tigela 2 Frutas`
   
   if (nItens01 != 0) {
     ex01.style.filter = 'brightness(1.2)'
@@ -103,7 +103,7 @@ function excluir01() {
   if (nItens01 > 0) {
     nItens01--
     mostraNItens01.innerHTML = `Quantidade: ${nItens01}`
-    pedidos.innerHTML += `\n${nItens01} Vegetariano Especial`
+    pedidos.innerHTML += `\n${nItens01} Tigela 2 Frutas`
   }
   
 }
@@ -112,7 +112,7 @@ function excluir01() {
 function adicionar02() {
   nItens02++
   mostraNItens02.innerHTML = `Quantidade: ${nItens02}`
-  pedidos.innerHTML += `\n${nItens02}  Especial da Casa`
+  pedidos.innerHTML += `\n${nItens02}  Tigela 3 Frutas`
 
   if (nItens02 != 0) {
     ex02.style.filter = 'brightness(1.2)'
@@ -124,7 +124,7 @@ function excluir02() {
   if (nItens02 > 0) {
     nItens02--
     mostraNItens02.innerHTML = `Quantidade: ${nItens02}`
-    pedidos.innerHTML += `\n${nItens02} Especial da Casa`
+    pedidos.innerHTML += `\n${nItens02} Tigela 3 Frutas`
   }
 }
 
@@ -132,7 +132,7 @@ function excluir02() {
 function adicionar03() {
   nItens03++
   mostraNItens03.innerHTML = `Quantidade: ${nItens03}`
-  pedidos.innerHTML += `\n${nItens03} Maionese Especial`
+  pedidos.innerHTML += `\n${nItens03} Purissímo`
   if (nItens03 != 0) {
     ex03.style.filter = 'brightness(1.2)'
     ex03.style.color = 'white'
@@ -143,7 +143,7 @@ function excluir03() {
   if (nItens03 > 0) {
     nItens03--
     mostraNItens03.innerHTML = `Quantidade: ${nItens03}`
-    pedidos.innerHTML += `\n${nItens03} Maionese Especial`
+    pedidos.innerHTML += `\n${nItens03} Purissímo`
   }
 }
 
@@ -151,7 +151,7 @@ function excluir03() {
 function adicionar04() {
   nItens04++
   mostraNItens04.innerHTML = `Quantidade: ${nItens04}`
-  pedidos.innerHTML += `\n${nItens04} Triplo Especiarias`
+  pedidos.innerHTML += `\n${nItens04} Morango Especial`
   if (nItens04 != 0) {
     ex04.style.filter = 'brightness(1.2)'
     ex04.style.color = 'white'
@@ -162,7 +162,7 @@ function excluir04() {
   if (nItens04 > 0) {
     nItens04--
     mostraNItens04.innerHTML = `Quantidade: ${nItens04}`
-    pedidos.innerHTML += `\n${nItens04} Triplo Especiarias`
+    pedidos.innerHTML += `\n${nItens04} Morango Especial`
   }
 }
 
@@ -170,7 +170,7 @@ function excluir04() {
 function adicionar05() {
   nItens05++
   mostraNItens05.innerHTML = `Quantidade: ${nItens05}`
-  pedidos.innerHTML += `\n${nItens05} Coca-Cola`
+  pedidos.innerHTML += `\n${nItens05} Favorito da Casa`
   if (nItens05 != 0) {
     ex05.style.filter += 'brightness(1.2)'
     ex05.style.color = 'white'
@@ -181,7 +181,7 @@ function excluir05() {
   if (nItens05 > 0) {
     nItens05--
     mostraNItens05.innerHTML = `Quantidade: ${nItens05}`
-    pedidos.innerHTML += `\n${nItens05} Coca-Cola`
+    pedidos.innerHTML += `\n${nItens05} Favorito da Casa`
   }
 }
 
@@ -189,7 +189,7 @@ function excluir05() {
 function adicionar06() {
   nItens06++
   mostraNItens06.innerHTML = `Quantidade: ${nItens06}`
-  pedidos.innerHTML += `\n${nItens06} Sprite`
+  pedidos.innerHTML += `\n${nItens06} Salada de Frutas`
   if (nItens06 != 0) {
     ex06.style.filter = 'brightness(1.2)'
     ex06.style.color = 'white'
@@ -200,7 +200,7 @@ function excluir06() {
   if (nItens06 > 0) {
     nItens06--
     mostraNItens06.innerHTML = `Quantidade: ${nItens06}`
-    pedidos.innerHTML += `\n${nItens06} Sprite`
+    pedidos.innerHTML += `\n${nItens06} Salada de Frutas`
   }
 }
 
@@ -208,7 +208,7 @@ function excluir06() {
 function adicionar07() {
   nItens07++
   mostraNItens07.innerHTML = `Quantidade: ${nItens07}`
-  pedidos.innerHTML += `\n${nItens07} Suco de Laranja`
+  pedidos.innerHTML += `\n${nItens07} Morancupu`
   if (nItens07 != 0) {
     ex07.style.filter = 'brightness(1.2)'
     ex07.style.color = 'white'
@@ -219,7 +219,7 @@ function excluir07() {
   if (nItens07 > 0) {
     nItens07--
     mostraNItens07.innerHTML = `Quantidade: ${nItens07}`
-    pedidos.innerHTML += `\n${nItens07} Suco de Laranja`
+    pedidos.innerHTML += `\n${nItens07} Morancupu`
   }
 }
 
@@ -227,7 +227,7 @@ function excluir07() {
 function adicionar08() {
   nItens08++
   mostraNItens08.innerHTML = `Quantidade: ${nItens08}`
-  pedidos.innerHTML += `\n${nItens08} Suco de Maracujá`
+  pedidos.innerHTML += `\n${nItens08} Combo 3x Big`
   if (nItens08 != 0) {
     ex08.style.filter = 'brightness(1.2)'
     ex08.style.color = 'white'
@@ -238,7 +238,7 @@ function excluir08() {
   if (nItens08 > 0) {
     nItens08--
     mostraNItens08.innerHTML = `Quantidade: ${nItens08}`
-    pedidos.innerHTML += `\n${nItens08} Suco de Maracujá`
+    pedidos.innerHTML += `\n${nItens08} Morango 3x Big`
   }
 }
 
@@ -246,7 +246,7 @@ function excluir08() {
 function adicionar09() {
   nItens09++
   mostraNItens09.innerHTML = `Quantidade: ${nItens09}`
-  pedidos.innerHTML += `\n${nItens09} Casquinha`
+  pedidos.innerHTML += `\n${nItens09} Combo Mix`
   if (nItens09 != 0) {
     ex09.style.filter = 'brightness(1.2)'
     ex09.style.color = 'white'
@@ -257,7 +257,7 @@ function excluir09() {
   if (nItens09 > 0) {
     nItens09--
     mostraNItens09.innerHTML = `Quantidade: ${nItens09}`
-    pedidos.innerHTML += `\n${nItens09} Casquinha`
+    pedidos.innerHTML += `\n${nItens09} Combo Mix`
   }
 }
 
@@ -265,7 +265,7 @@ function excluir09() {
 function adicionar10() {
   nItens10++
   mostraNItens10.innerHTML = `Quantidade: ${nItens10}`
-  pedidos.innerHTML += `\n${nItens10} Sorvete no Copo`
+  pedidos.innerHTML += `\n${nItens10} Combo Livre`
   if (nItens10 != 0) {
     ex10.style.filter = 'brightness(1.2)'
     ex10.style.color = 'white'
@@ -276,7 +276,7 @@ function excluir10() {
   if (nItens10 > 0) {
     nItens10--
     mostraNItens10.innerHTML = `Quantidade: ${nItens10}`
-    pedidos.innerHTML += `\n${nItens10} Sorvete no Copo`
+    pedidos.innerHTML += `\n${nItens10} Combo Livre`
   }
 }
 
@@ -284,7 +284,7 @@ function excluir10() {
 function adicionar11() {
   nItens11++
   mostraNItens11.innerHTML = `Quantidade: ${nItens11}`
-  pedidos.innerHTML += `\n${nItens11} Milk-Shake de Chocolate`
+  pedidos.innerHTML += `\n${nItens11} Barca 6 Camadas`
   if (nItens11 != 0) {
     ex11.style.filter = 'brightness(1.2)'
     ex11.style.color = 'white'
@@ -295,7 +295,7 @@ function excluir11() {
   if (nItens11 > 0) {
     nItens11--
     mostraNItens11.innerHTML = `Quantidade: ${nItens11}`
-    pedidos.innerHTML += `\n${nItens11} Milk-Shake de Chocolate`
+    pedidos.innerHTML += `\n${nItens11} Barca 6 Camadas`
   }
 }
 
@@ -303,7 +303,7 @@ function excluir11() {
 function adicionar12() {
   nItens12++
   mostraNItens12.innerHTML = `Quantidade: ${nItens12}`
-  pedidos.innerHTML += `\n${nItens12} Milk-Shake de Morango`
+  pedidos.innerHTML += `\n${nItens12} Creme Cupuaçu c/ Morango`
   if (nItens12 != 0) {
     ex12.style.filter = 'brightness(1.2)'
     ex12.style.color = 'white'
@@ -314,7 +314,7 @@ function excluir12() {
   if (nItens12 > 0) {
     nItens12--
     mostraNItens12.innerHTML = `Quantidade: ${nItens12}`
-    pedidos.innerHTML += `\n${nItens12} Milk-Shake de Morango`
+    pedidos.innerHTML += `\n${nItens12} Creme Cupuaçu c/ Morango`
   }
 
 }
@@ -328,7 +328,7 @@ function excluir12() {
 function confirmarPedido() {
   valorPedido = (nItens01 * valor01) + (nItens02 * valor02) + (nItens03 * valor03) + (nItens04 * valor04) + (nItens05 * valor05) + (nItens06 * valor06) + (nItens07 * valor07) + (nItens08 * valor08) + (nItens09 * valor09) + (nItens10 * valor10) + (nItens11 * valor11) + (nItens12 * valor12) 
 
-  mostraValorPedido.innerHTML = `O valor do pedido é de: ${valorPedido} R$`
+  mostraValorPedido.innerHTML = `O valor do pedido é de: R$${valorPedido},00`
 }
 
 
