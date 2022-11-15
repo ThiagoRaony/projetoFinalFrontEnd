@@ -79,7 +79,7 @@ let valor07 = 21
 let valor08 = 62
 let valor09 = 44
 let valor10 = 55
-let valor11 = 43
+let valor11 = 105
 let valor12 = 16
 
 // Valor Total
@@ -238,7 +238,7 @@ function excluir08() {
   if (nItens08 > 0) {
     nItens08--
     mostraNItens08.innerHTML = `Quantidade: ${nItens08}`
-    pedidos.innerHTML += `\n${nItens08} Morango 3x Big`
+    pedidos.innerHTML += `\n${nItens08} Combo 3x Big`
   }
 }
 

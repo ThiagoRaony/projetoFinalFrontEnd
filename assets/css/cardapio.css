@@ -168,13 +168,13 @@ section.cards-cardapio img {
 section.cards-cardapio .img-irregular0 {
   width: 99%;
   margin: 0 auto;
-  margin-top: 9rem;
+  margin-top: 11.1rem;
 }
 
 section.cards-cardapio .img-irregular1 {
   width: 99%;
   margin: 0 auto;
-  margin-top: 3.8rem;
+  margin-top: 7.6rem;
 }
 
 section.cards-cardapio .img-irregular2 {
@@ -196,8 +196,8 @@ section.cards-cardapio .img-irregular4 {
 }
 
 section.cards-cardapio .img-irregular5 {
-  width: 45%;
-  margin: 3.6rem auto;
+  width: 49%;
+  margin: 3.5rem auto;
 }
 
 section.cards-cardapio .img-irregular6 {
@@ -221,24 +221,28 @@ section.cards-cardapio .img-irregular8 {
 section.cards-cardapio .img-irregular9 {
   width: 94%;
   margin: 0 auto;
-  margin-top: 7.8rem;
+  margin-top: 4.2rem;
 }
 
 section.cards-cardapio .img-irregular10 {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
-  margin-top: -0.2rem;
+  margin-top: 0rem;
 }
 
 section.cards-cardapio .img-irregular11 {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 1rem;
+  margin-top: 5.3rem;
 }
 
 .card-body p {
   text-align: left;
   margin-bottom: 2rem;
+}
+
+b{
+  font-weight: bold;
 }
 
 .card-body span {
