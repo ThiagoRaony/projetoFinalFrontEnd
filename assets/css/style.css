@@ -475,6 +475,11 @@ i {
   text-align: center;
 }
 
+.criacao{
+  text-decoration: none;
+  color: black;
+}
+
 /* Responsivo */
 
 @media (max-width: 1024px) {

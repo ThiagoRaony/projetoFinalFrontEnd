@@ -336,6 +336,11 @@ section.container-dev {
   text-align: center;
 }
 
+.criacao{
+  text-decoration: none;
+  color: black;
+}
+
 /* Responsivo */
 
 @media (max-width: 1230px) {
